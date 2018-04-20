@@ -4,7 +4,7 @@ from matplotlib import pyplot as plt
 get_ipython().magic(u'matplotlib inline')
 
 import numpy as np
-np.random.seed(42)
+#np.random.seed(42)
 
 def __generate_cube__(center, width):
     """Makes point equally distributed in hyper-cuboid
